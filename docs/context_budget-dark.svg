@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="748.8pt" height="111.6pt" viewBox="0 0 748.8 111.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-05T04:00:43.558574</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 111.6 
+L 748.8 111.6 
+L 748.8 0 
+L 0 0 
+z
+" style="fill: #1a1a19"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 17.856 61.416 
+L 81.576 61.416 
+Q 84.456 61.416 84.456 58.536 
+L 84.456 44.136 
+Q 84.456 41.256 81.576 41.256 
+L 17.856 41.256 
+Q 14.976 41.256 14.976 44.136 
+L 14.976 58.536 
+Q 14.976 61.416 17.856 61.416 
+z
+" clip-path="url(#pa5c1acf227)" style="fill: #3987e5"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 88.776 61.416 
+L 432.576 61.416 
+Q 435.456 61.416 435.456 58.536 
+L 435.456 44.136 
+Q 435.456 41.256 432.576 41.256 
+L 88.776 41.256 
+Q 85.896 41.256 85.896 44.136 
+L 85.896 58.536 
+Q 85.896 61.416 88.776 61.416 
+z
+" clip-path="url(#pa5c1acf227)" style="fill: #d95926"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 439.776 61.416 
+L 550.512 61.416 
+Q 553.392 61.416 553.392 58.536 
+L 553.392 44.136 
+Q 553.392 41.256 550.512 41.256 
+L 439.776 41.256 
+Q 436.896 41.256 436.896 44.136 
+L 436.896 58.536 
+Q 436.896 61.416 439.776 61.416 
+z
+" clip-path="url(#pa5c1acf227)" style="fill: #199e70"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 557.712 61.416 
+L 730.944 61.416 
+Q 733.824 61.416 733.824 58.536 
+L 733.824 44.136 
+Q 733.824 41.256 730.944 41.256 
+L 557.712 41.256 
+Q 554.832 41.256 554.832 44.136 
+L 554.832 58.536 
+Q 554.832 61.416 557.712 61.416 
+z
+" clip-path="url(#pa5c1acf227)" style="fill: #c98500"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 600; font-size: 9.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="20.736" y="53.794496" transform="rotate(-0 20.736 53.794496)">400</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 600; font-size: 9.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="91.656" y="53.852851" transform="rotate(-0 91.656 53.852851)">Document chunk  2,000</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 600; font-size: 9.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="442.656" y="53.70163" transform="rotate(-0 442.656 53.70163)">Spare  672</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 600; font-size: 9.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="560.592" y="53.905546" transform="rotate(-0 560.592 53.905546)">Reserved for the answer  1,024</text>
+   </g>
+  </g>
+  <g id="text_5">
+   <text style="font-weight: 600; font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #f0efec" x="14.976" y="15.624" transform="rotate(-0 14.976 15.624)">One request must fit the 4,096-token context window (num_ctx)</text>
+  </g>
+  <g id="legend_1">
+   <g id="patch_6">
+    <path d="M 19.332 102.012188 
+L 29.232 102.012188 
+L 29.232 94.542188 
+L 19.332 94.542188 
+z
+" style="fill: #3987e5"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #c3c2b7" x="36.432" y="101.382188" transform="rotate(-0 36.432 101.382188)">Prompt: system + template + retry</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 188.1495 102.012188 
+L 198.0495 102.012188 
+L 198.0495 94.542188 
+L 188.1495 94.542188 
+z
+" style="fill: #d95926"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #c3c2b7" x="205.2495" y="101.382188" transform="rotate(-0 205.2495 101.382188)">Document chunk</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 287.463094 102.012188 
+L 297.363094 102.012188 
+L 297.363094 94.542188 
+L 287.463094 94.542188 
+z
+" style="fill: #199e70"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #c3c2b7" x="304.563094" y="101.382188" transform="rotate(-0 304.563094 101.382188)">Spare, for the token estimate</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 433.773563 102.012188 
+L 443.673563 102.012188 
+L 443.673563 94.542188 
+L 433.773563 94.542188 
+z
+" style="fill: #c98500"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #c3c2b7" x="450.873563" y="101.382188" transform="rotate(-0 450.873563 101.382188)">Reserved for the answer</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa5c1acf227">
+   <rect x="14.976" y="31.248" width="718.848" height="40.176"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -23,6 +23,8 @@ select = [
 [tool.ruff.lint.per-file-ignores]
 # Tests are plain enough to read without type hints; the hints matter in the code they test.
 "tests/*" = ["ANN"]
+# The figure script is a one-off plotting script, not part of the tool.
+"docs/*" = ["ANN", "E402", "E501"]
 
 # mypy checks that the type hints are CORRECT (ruff only checks that they are there).
 #   mypy
