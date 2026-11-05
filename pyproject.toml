@@ -1,0 +1,33 @@
+# Settings for ruff, the linter and formatter (https://docs.astral.sh/ruff/).
+#   ruff check .            find problems (unused imports, bugs, missing type hints, ...)
+#   ruff check . --fix      fix the ones it can fix safely
+#   ruff format .           format every file the same way
+# The GitHub Actions workflow runs `ruff check` and `ruff format --check`, so
+# code that isn't clean doesn't pass CI.
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"   # the oldest Python we support, so ruff doesn't suggest newer syntax
+
+[tool.ruff.lint]
+select = [
+    "E", "W",   # pycodestyle: style errors and warnings
+    "F",        # pyflakes: unused imports and variables, undefined names
+    "I",        # isort: imports sorted and grouped
+    "UP",       # pyupgrade: modern syntax for the target version
+    "B",        # bugbear: likely bugs (mutable default arguments, ...)
+    "SIM",      # simplify: needlessly complex code
+    "ANN",      # annotations: every function needs type hints (see per-file-ignores)
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Tests are plain enough to read without type hints; the hints matter in the code they test.
+"tests/*" = ["ANN"]
+
+# mypy checks that the type hints are CORRECT (ruff only checks that they are there).
+#   mypy
+[tool.mypy]
+files = ["summarizer", "cli.py", "benchmark.py"]
+python_version = "3.10"
+ignore_missing_imports = true   # psutil ships no type information
+warn_unused_ignores = true

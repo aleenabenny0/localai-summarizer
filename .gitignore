@@ -1,0 +1,15 @@
+# Python virtual environment and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Results you save with --out (keep benchmark_results.md, it's part of the project)
+result*.json
+outputs/
+*.tmp
+
+# Personal interview notes, not part of the project
+interview_cheatsheet.md

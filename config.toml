@@ -1,0 +1,21 @@
+# LocalAI-Summarizer settings. This file is optional: delete it and the built-in
+# defaults in summarizer/config.py apply. Command-line flags override these values.
+
+# The Ollama model to use. Smaller and faster, but less accurate: "llama3.2:1b".
+# Flag: --model
+model = "llama3.2:3b"
+
+# The biggest input file accepted, in MB (1 MB is about 170,000 words).
+# Flag: --max-mb
+max_input_mb = 1.0
+
+# The size of each chunk of a long document, in tokens. It must leave room in the
+# 4,096-token context window for the prompt and the answer, so at most 2672.
+# Smaller chunks mean more model calls; bigger ones risk overflowing the window.
+# Flag: --chunk-tokens
+chunk_tokens = 2000
+
+# 0 = always pick the most likely next token: repeatable output, best for
+# extraction. Higher values (up to 2) make the output more varied.
+# Flag: --temperature
+temperature = 0

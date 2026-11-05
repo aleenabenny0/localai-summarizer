@@ -1,0 +1,107 @@
+Subject: RE: Customer webinar - Nov 20 - speakers / platform / case study
+
+From: Lena Park <lena.park@example.com>
+Sent: Tuesday, November 4, 9:12 AM
+To: Owen Brooks; Ana Ruiz; Farid Haddad; Tobias Wren
+Subject: RE: Customer webinar - Nov 20 - speakers / platform / case study
+
+Hi all,
+
+Change of plan, sorry!! Between Tobias being out and the product freeze on the 19th-21st, the 20th isn't going to work. We're moving the webinar to Thursday Dec 4, same time (10-11am).
+
+Owen - please DON'T send the invite tomorrow like you planned. Can you move the platform booking to Dec 4 instead of cancelling it? Same 500-seat license. And yes to registration questions, let's just do company size and job role, nothing else, people hate long forms.
+
+New timeline:
+- slides to me by Tues Nov 25 (Ana, Farid)
+- dry run Tues Dec 2 at 2pm, everyone who's presenting
+- invite goes out once the booking is moved, ideally by the end of this week
+
+Farid, legal still hasn't come back to me about the Brightline logo. Can you chase them? I don't want to put a customer logo on a slide without it.
+
+The slide template is in the shared folder now (Marketing > Webinars > Template), so that one's done.
+
+Thanks!
+Lena
+
+Lena Park | Senior Marketing Manager
++1 (555) 014-2290 | example.com
+
+CONFIDENTIALITY NOTICE: This e-mail and any attachments are intended only for the named recipient(s) and may contain confidential information. If you have received it in error, please notify the sender and delete it. Any other use is prohibited.
+
+-----Original Message-----
+From: Tobias Wren <tobias.wren@example.com>
+Sent: Monday, November 3, 6:02 PM
+To: Lena Park; Owen Brooks; Ana Ruiz; Farid Haddad
+Subject: RE: Customer webinar - Nov 20 - speakers / platform / case study
+
+Hey, Ana pinged me about the Q&A. Happy to do it, but heads up I'm out Nov 18-21 (conference in Lisbon), so if it stays on the 20th I can't. Any chance we push it a couple of weeks? Early December is wide open for me.
+
+T.
+
+-----Original Message-----
+From: Owen Brooks <owen.brooks@example.com>
+Sent: Monday, November 3, 4:47 PM
+To: Lena Park; Ana Ruiz; Farid Haddad
+Subject: RE: Customer webinar - Nov 20 - speakers / platform / case study
+
+Booked the webinar platform for Nov 20, 10-11am, on the 500-seat license (the 100-seat one wouldn't be enough if last year's numbers are anything to go by). Draft invite attached. I'm planning to send it Wednesday morning unless anyone objects.
+
+Q: do we want registration questions or just name + email?
+
+Owen
+
+Sent from my iPhone
+
+-----Original Message-----
+From: Farid Haddad <farid.haddad@example.com>
+Sent: Monday, November 3, 11:30 AM
+To: Lena Park; Ana Ruiz; Owen Brooks
+Subject: RE: Customer webinar - Nov 20 - speakers / platform / case study
+
++1 to Ana doing the roadmap.
+
+On the case study: I talked to Brightline Logistics last week and they're up for it, at least verbally. Their ops director, Maya, said she'd even join for 5 min if her schedule allows. BUT we need it in writing before we name them publicly, and legal needs to OK using their logo. I'll get Maya to confirm by email and I'll loop in legal.
+
+I can also pull their adoption numbers from the customer dashboard for the slides. Should have those by end of next week.
+
+Farid Haddad
+Customer Success Lead
+
+-----Original Message-----
+From: Ana Ruiz <ana.ruiz@example.com>
+Sent: Monday, November 3, 10:05 AM
+To: Lena Park; Owen Brooks; Farid Haddad
+Subject: RE: Customer webinar - Nov 20 - speakers / platform / case study
+
+Happy to present the roadmap section, 15 min is about right. Two things though:
+1) I'd really rather not do the Q&A alone, last time I got three questions about the API and had no idea. Could someone from engineering join? I'll ask Tobias.
+2) I need the slide template before I start, otherwise I'll just have to redo everything.
+
+Ana
+
+-----Original Message-----
+From: Lena Park <lena.park@example.com>
+Sent: Friday, October 31, 3:15 PM
+To: Owen Brooks; Ana Ruiz; Farid Haddad
+Subject: Customer webinar - Nov 20 - speakers / platform / case study
+
+Hi team,
+
+We're planning a customer webinar for Thursday Nov 20, 10-11am. Rough agenda:
+
+1. Welcome + intro (me, 5 min)
+2. Product roadmap (Ana? 15 min)
+3. Customer case study (Farid, could one of your customers do this? 15 min)
+4. Live Q&A (20 min)
+
+Owen, could you book the webinar platform and draft the invite? Ana, would you be up for presenting the roadmap? Farid, can you ask Brightline whether they'd be our case study? I'll send the slide template by Friday.
+
+Let me know if the date is a problem for anyone.
+
+Thanks,
+Lena
+
+Lena Park | Senior Marketing Manager
++1 (555) 014-2290 | example.com
+
+CONFIDENTIALITY NOTICE: This e-mail and any attachments are intended only for the named recipient(s) and may contain confidential information. If you have received it in error, please notify the sender and delete it. Any other use is prohibited.

@@ -1,0 +1,26 @@
+weekly sync - mobile app team   tues 14 oct
+attendees: priya (PM), marcus, jen (design), tom (QA), aisha - joined late ~10 min
+
+- release 2.4 status
+  - priya: still targeting oct 28 but its tight. 3 blockers open
+  - offline sync bug (#4412) -- marcus says root cause is the retry queue not flushing when app is backgrounded. fix is in review, needs one more approval. marcus to get it merged by thurs
+  - crash on android 12 when uploading photos >10MB. tom can repro 4/5 times on the pixel 6. nobody owns it yet?? -> aisha said she'd take it once shes off the payments thing, prob monday
+  - login screen copy still says "Sign in w/ email" but legal wants "Continue with email". jen will update figma + send to marcus. small but dont forget again lol
+
+- analytics
+  - dashboard numbers dont match between the vendor tool and our internal one, ~8% diff in DAU
+  - marcus thinks its timezones (UTC vs local). priya: "can we just pick one and document it"
+  - decided: internal dashboard = source of truth going forward. priya to write a short note on the wiki + tell the leadership group
+
+- design review: onboarding v2
+  - jen showed 3 options. ppl liked option B (the shorter one, 3 screens instead of 5)
+  - tom worried about accessibility on the swipe gesture - needs a button alternative
+  - jen to add button alternative + run it past the a11y checklist before next wk
+  - no final decision, revisit next sync
+
+- misc
+  - tom out next fri (11/7?) wait no, oct 24. someone needs to cover the regression run -> marcus volunteered?? (confirm)
+  - coffee machine on 3rd floor broken again, not our problem
+  - aisha: payments migration ~70% done, should finish end of next week, will ping if it slips
+
+next sync: tues 21 oct same time

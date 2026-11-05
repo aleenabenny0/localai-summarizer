@@ -1,0 +1,12 @@
+# Development tools: tests, linting/formatting and the vulnerability check.
+# Not needed to run the tool.
+#     pip install -r requirements-dev.txt
+#     python -m pytest -q
+#     ruff check . ; ruff format .
+#     mypy
+#     pip-audit -r requirements.txt
+-r requirements.txt
+pytest==9.2.0
+ruff==0.17.3
+mypy==2.4.1
+pip-audit==2.10.1

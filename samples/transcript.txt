@@ -1,0 +1,223 @@
+[Auto-generated transcript - Warehouse inventory system call - accuracy not guaranteed]
+
+[00:00:04] Dana: Okay, I think we're... are we recording? Yeah, okay, it says recording. Hi everyone. So, um, thanks for jumping on, I know it's, uh, it's Thursday afternoon and everyone's fried. Is Sam joining?
+
+[00:00:15] Raj: He said he'd be like five minutes late, he's got the, uh, the thing with the landlord.
+
+[00:00:19] Dana: Oh right, the lease thing for building C. Okay. So let's just start without him. Um, so the point of today is basically, we need to decide whether we're actually doing the inventory system pilot with Stockwise or not, and if we are, like, who's doing what. Because last time we talked about it for an hour and then nobody actually did anything. [laughs] No offense to anyone.
+
+[00:00:38] Carlos: None taken. I mean, some taken. [laughter]
+
+[00:00:41] Dana: Fair. Okay so quick recap for Mei because Mei you weren't on the last one. The current system, the spreadsheet plus the old scanner software, it's, um, it's basically held together with tape at this point. We had the miscount in September where we thought we had like four hundred units of the blue shelving brackets and we had, what was it Carlos, twelve?
+
+[00:01:02] Carlos: Twelve. Twelve brackets. And a customer order for two hundred. That was a fun Monday.
+
+[00:01:07] Mei: Oh no. Okay. I did hear about that one actually, it came up in the, uh, the quarterly review, the refund cost.
+
+[00:01:14] Dana: Right. So that's the why. The what is, Stockwise does, um, real-time inventory, it works with handheld scanners, it has the, the reorder alerts thing, and they do a pilot where you run it in one warehouse for like eight weeks before you commit to the full contract.
+
+[00:01:31] Raj: Can I just, um, sorry, can I jump in on the scanners thing? Because that's actually my biggest worry. Our handhelds are, like, the Zebra ones from 2017 I think, some of them are older, and I'm not sure they'll even run the Stockwise app. They said Android 10 minimum and I'm pretty sure half of ours are on 8.
+
+[00:01:49] Carlos: Half is generous. Some of them don't turn on unless you hold them a certain way. [laughs] I'm serious, there's one in B that we call "the patient" because you have to kind of, like, coax it.
+
+[00:01:58] Dana: Okay so that's a real problem. Carlos, could you, um, could you actually count how many handhelds we have and which ones are, like, actually working, and what Android version they're on?
+
+[00:02:08] Carlos: Yeah I can do that. I'll walk both buildings, I'll put it in a list and send it to Raj, since he's the one who'll know what we need to replace.
+
+[00:02:15] Raj: That'd be great. If you can get me that by, um, early next week, Tuesday-ish, then I can check it against their requirements.
+
+[00:02:21] Carlos: Tuesday, yeah, should be fine. Unless the truck schedule blows up again.
+
+[00:02:25] Dana: Which it will. [laughter] Okay. Um. So, budget. Mei, this is where you come in. The pilot itself is, they quoted, I think it was eleven thousand for the eight weeks, including setup. And then if we go full, it's per user per month, I have the sheet somewhere.
+
+[00:02:43] Mei: Okay, so, eleven thousand is, um, that's not nothing. The question for me is whether that comes out of this fiscal year or next, because this year's ops budget is, like, pretty much spoken for after the forklift repairs.
+
+[00:02:56] Carlos: Oh don't. Don't remind me of the forklift.
+
+[00:02:59] Mei: [laughs] I have to remind you, I'm finance, it's literally my job.
+
+[00:03:03] Carlos: You know the forklift thing wasn't even, like, it wasn't our fault, the guy from the rental place said the hydraulic line was already, uh, whatever, it was already damaged when it came in. We have photos.
+
+[00:03:12] Dana: We do have photos. Okay, we're not doing the forklift today. [laughter] Mei, so can you figure out the fiscal year question?
+
+[00:03:18] Mei: Yes. I'll check with, um, with the controller whether we can put it into next year's budget even if the pilot starts in December, because I think there's a rule about when the invoice lands. I'll have an answer by the end of the month. The thirtieth.
+
+[00:03:31] Dana: Perfect. End of month works. Okay.
+
+[00:03:34] Sam: Hey, sorry, sorry, I'm here. Hi. Did I miss anything important?
+
+[00:03:38] Dana: Hey Sam. Uh, we did scanners and budget, kind of. Carlos is counting the handhelds, Mei's checking the fiscal year thing. How'd the landlord go?
+
+[00:03:46] Sam: Oh, don't ask. Long story. Short version, they want to raise the rent on building C by eight percent and they're calling it, quote, "a market adjustment." But that's a whole other meeting.
+
+[00:03:56] Raj: Eight percent? That's wild.
+
+[00:03:58] Sam: Yeah. Anyway. Sorry. Keep going.
+
+[00:04:01] Dana: Okay, so the other big thing, and Sam this is actually kind of for you, is the data. Stockwise would have access to all our inventory data, and some customer stuff, like order history linked to SKUs. And I don't know what we need, legally, before we hand that over to a vendor.
+
+[00:04:17] Sam: Yeah, they'll need a data processing agreement. A DPA. Legal's going to want to see their security docs too, like, where the data is stored, whether it's encrypted, all that. I can, um, I'll reach out to legal about it. This week, hopefully, they're slammed but I'll at least get it in the queue.
+
+[00:04:33] Dana: Great, thank you. Get it in the queue this week, that's, that's honestly all we need for now.
+
+[00:04:38] Raj: And I'll need, um, I'll need sandbox access from Stockwise to actually test whether our data imports cleanly. Like, I don't want to find out during the pilot that our SKU format breaks their import. Has anyone talked to their, uh, their sales guy? Brandon?
+
+[00:04:52] Dana: Brendan. Yeah, I have his email.
+
+[00:04:55] Raj: Brendan, sorry. Okay. Can you intro me? Or I can just email him directly, actually, that's probably faster.
+
+[00:05:01] Dana: Just email him directly and cc me. You want to ask for sandbox access and, what else, the API docs?
+
+[00:05:07] Raj: API docs, the import file format, and whether they support, um, SSO, because IT is going to ask. I'll send that to him tomorrow and hopefully get sandbox access by next Wednesday.
+
+[00:05:18] Dana: Great.
+
+[00:05:19] Carlos: Sorry, my dog is, uh, someone's at the door, he's losing his mind. One sec. [dog barking] [inaudible]
+
+[00:05:27] Dana: [laughs] No worries. Hi dog.
+
+[00:05:30] Carlos: Sorry. Okay. He's, he's fine. It was a package. He thinks every package is a, like, a personal attack.
+
+[00:05:37] Mei: Mine does the same thing with the mail. Every single day, like he's never seen the mail before.
+
+[00:05:42] Dana: Okay okay. [laughs] Back to it. So, the data. Raj, how bad is our data honestly? Like if we exported it today.
+
+[00:05:49] Raj: Um. Honestly? Not great. We have duplicate SKUs, because remember when we switched suppliers for the packing tape and someone created new SKUs instead of updating the old ones? So there's, like, two or three of each. And there's a bunch of old stuff we don't sell anymore that's still in there with, like, zero stock or negative stock, which shouldn't be possible.
+
+[00:06:09] Sam: Negative stock. [laughs] We're so advanced we have anti-inventory.
+
+[00:06:13] Raj: [laughs] Right. So I'd want to clean that up before we import anything. I can export the last, um, how far back do we go? I was thinking twelve months.
+
+[00:06:22] Dana: What does Stockwise need?
+
+[00:06:24] Raj: I think they just need current stock levels plus some history for the reorder predictions. Twelve months is probably enough for the seasonal stuff.
+
+[00:06:31] Mei: Can I ask, for finance, we need to keep, like, seven years of records for audit. That's not a problem, right? We're not deleting anything?
+
+[00:06:38] Raj: No no, we're not deleting anything. The old system stays as, like, an archive. Read-only. We just don't migrate the old stuff into Stockwise.
+
+[00:06:46] Dana: Okay, so let's make that a decision. We only migrate the last twelve months into Stockwise, and the old system stays as a read-only archive for audit. Everyone okay with that?
+
+[00:06:56] Mei: Yes, as long as it's read-only and nobody turns it off.
+
+[00:06:59] Carlos: Fine by me.
+
+[00:07:00] Sam: Yep.
+
+[00:07:01] Dana: Great. Raj, so you'll do the export and the SKU cleanup?
+
+[00:07:04] Raj: Yeah. I'll do the export and clean up the duplicate SKUs before the vendor demo. It's going to be a few days of work, honestly, because I'll need Carlos to, um, to confirm which SKUs are real.
+
+[00:07:14] Carlos: Send me the list, I'll go through it. But not before Tuesday because of the handheld count.
+
+[00:07:19] Raj: Yeah, no, after that is fine.
+
+[00:07:21] Dana: Okay. So, um, where was I. The demo. So Stockwise offered to come on site and do a demo for the floor team. I think that's actually really important because if the floor team hates it, it's dead. Like, it doesn't matter how good the dashboard is.
+
+[00:07:35] Carlos: A hundred percent. If my guys find it slower than the current thing, they'll just, like, they'll write stuff on paper and enter it later, which is how we got here.
+
+[00:07:43] Dana: Right. So I'll schedule the vendor demo for the week of the seventeenth. And I'll book the training room for it, the big one, not the one with the broken projector.
+
+[00:07:52] Sam: Is the projector in the small room still broken? I thought facilities fixed it.
+
+[00:07:56] Carlos: They "fixed" it. Now it works but it's, like, green. Everything is green. [laughs] It's like watching a presentation through night vision goggles.
+
+[00:08:04] Mei: [laughs] That explains the budget review last month, I thought my charts were just, like, ugly.
+
+[00:08:09] Dana: [laughs] Okay. Anyway. Big room. Week of the seventeenth. Now, um, Carlos, for the pilot, which warehouse do you think? A or B?
+
+[00:08:17] Carlos: B. Definitely B. A is bigger and it's where all the, uh, all the fast-moving stuff is, so if something goes wrong there it's a disaster. B is smaller, slower, and the team in B is, they're a bit more, um, open to new stuff. Jamal's crew especially.
+
+[00:08:32] Raj: Also B has the better Wi-Fi. A has those dead zones by the loading dock.
+
+[00:08:36] Dana: Okay so B it is. Pilot runs in warehouse B only. Anyone object?
+
+[00:08:40] Sam: No, makes sense.
+
+[00:08:42] Mei: No.
+
+[00:08:43] Dana: Great, that's decision number two. Um, and timing. When should the pilot actually start? Because, the problem is, peak season.
+
+[00:08:50] Carlos: Oh, no way we do this during peak. No way. November, December, we're doing double shifts, nobody has time to learn a new system. If we start it before the holidays I'll, like, I'll quit. [laughs] I'm kidding. Mostly.
+
+[00:09:02] Dana: [laughs] Okay, so after peak. Like mid-January?
+
+[00:09:05] Carlos: Mid-January is good. Second or third week of January. After the returns wave dies down.
+
+[00:09:11] Mei: And that would help with the budget question too, actually, if it starts in January then it's more clearly next fiscal year. So that might just, um, that might solve itself. I'll still check though.
+
+[00:09:21] Dana: Okay so, tentatively, pilot go-live mid-January, in B. Which means the demo in, uh, in two weeks, then training in early January. So training. Carlos, how many people would need training?
+
+[00:09:33] Carlos: In B? There's, um, three shifts. I'd say pick two people from each shift to be, like, the super users. The ones who learn it first and then help everyone else.
+
+[00:09:43] Dana: I like that. Six super users. Can you pick them?
+
+[00:09:46] Carlos: Yeah. I'll pick two from each shift and send you the names by Friday. Not this Friday, next Friday, I need to talk to the shift leads first.
+
+[00:09:54] Dana: Next Friday is fine.
+
+[00:09:56] Sam: Should we, um, should we get a second quote though? Like, before we sign anything with Stockwise? Just so we have something to compare. I feel like eleven grand for a pilot is, I don't know, I don't know if that's normal.
+
+[00:10:07] Raj: There's ShelfTrack, they're the other one we looked at. They were cheaper but their scanner app looked kind of, um, kind of clunky.
+
+[00:10:13] Mei: I can reach out to ShelfTrack for a quote. Honestly it helps me with the budget conversation too, if I can say we compared two vendors, the controller likes that. I'll get it by next Friday.
+
+[00:10:22] Dana: Great, thanks Mei. So that's a quote from ShelfTrack by next Friday.
+
+[00:10:26] Carlos: Can I, um, can I raise a thing that's kind of related? The, uh, the label printers. If we're doing new scanning, are the labels going to change? Because our label printers are also, um, they're also ancient.
+
+[00:10:38] Raj: Good question. I don't know. I'll add that to the list of questions for Brendan. Whether we need new barcode formats.
+
+[00:10:44] Dana: Yeah, add it to the email. Okay, um. What else. Oh, the, the reorder alerts. So one of the selling points is it tells you when you're about to run out. Who gets those alerts?
+
+[00:10:55] Carlos: Me. And the shift leads. Not, like, everybody, otherwise people just ignore them. Like the fire drill emails.
+
+[00:11:01] Sam: Nobody reads the fire drill emails.
+
+[00:11:03] Carlos: Exactly my point.
+
+[00:11:05] Dana: Okay so, alerts go to Carlos and the shift leads. We can configure that later, that's not urgent. Um. What about reporting? Mei, do you need anything from it for finance?
+
+[00:11:14] Mei: Um, I'd want a monthly inventory valuation report. Like, total value of stock on hand. Right now I build that by hand from the spreadsheet and it takes, like, two days every month. If Stockwise can spit that out, that alone might, um, that might justify a chunk of the cost.
+
+[00:11:30] Dana: Oh, that's a great point. Two days a month. Okay, Raj, can you add that to the questions too, whether it does a valuation report?
+
+[00:11:37] Raj: Yep. Valuation report. Got it. The email to Brendan is getting long. [laughs]
+
+[00:11:41] Dana: [laughs] It's fine, he's in sales, he loves emails. Okay, let me, um, let me try to recap so we all agree, and then I'll send it out. Actually, wait, before that. Sam, the lease thing, is that going to affect the pilot at all? Like if we're not staying in building C?
+
+[00:11:57] Sam: No, the pilot's in B, and B is ours, we own that one. C is just overflow storage. So no.
+
+[00:12:04] Dana: Okay good. Phew. Okay so, recap. Decisions: we're going ahead with the Stockwise pilot, in warehouse B only, starting mid-January after peak season. We migrate only the last twelve months of data, and the old system stays as a read-only archive. Um, and alerts go to Carlos and the shift leads.
+
+[00:12:23] Raj: And the six super users.
+
+[00:12:25] Dana: Right, the six super users, two per shift. Okay, and then action items, let me go around. Carlos: count the handhelds, which work, what Android version, send to Raj by Tuesday. Then pick the six super users and send me names by next Friday. And go through the SKU list with Raj after Tuesday.
+
+[00:12:44] Carlos: Yep. Got it.
+
+[00:12:45] Dana: Raj: email Brendan tomorrow, cc me, ask for sandbox access, API docs, import format, SSO, label formats, and the valuation report. Get sandbox by next Wednesday. Export the last twelve months and clean up duplicate SKUs before the demo.
+
+[00:13:00] Raj: Yes. That's, uh, that's a lot when you say it out loud. [laughs]
+
+[00:13:04] Dana: [laughs] You'll be fine. Mei: check with the controller on fiscal year, answer by the thirtieth. And get a ShelfTrack quote by next Friday.
+
+[00:13:12] Mei: Yep.
+
+[00:13:13] Dana: Sam: get the DPA into legal's queue this week.
+
+[00:13:17] Sam: Yes. Will do. I'll forward you the ticket number.
+
+[00:13:20] Dana: And me: schedule the Stockwise demo for the week of the seventeenth, book the big training room, and send the recap email to everyone today. Did I miss anything?
+
+[00:13:30] Mei: I don't think so.
+
+[00:13:31] Carlos: The forklift.
+
+[00:13:32] Dana: We are not doing the forklift. [laughter] Okay, thanks everyone, this was actually productive. Talk soon.
+
+[00:13:39] Sam: Bye!
+
+[00:13:40] Raj: Thanks, bye.
+
+[Recording ended - 00:13:42]

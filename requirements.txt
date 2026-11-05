@@ -1,0 +1,10 @@
+# Runtime dependencies, pinned to the exact versions this project was built and
+# benchmarked with. Exact pins mean `pip install` gives everyone the same code,
+# and a new (or tampered-with) release can't arrive without someone changing
+# this file on purpose. Update deliberately, then re-run the tests and pip-audit.
+#
+# requirements.lock has the complete tree (these plus what they pull in).
+ollama==0.6.3
+httpx==0.28.1
+psutil==7.2.2
+tomli==2.5.0; python_version < "3.11"   # reads config.toml on Python 3.10 (3.11+ has tomllib built in)
